@@ -1,0 +1,195 @@
+/*960px*/
+@media  (max-width: 960px ){
+    html, body{
+        font-size: 10px;
+    }
+    .photo{
+        width: 80%;
+    }
+    .title{
+        display: none;
+    }
+    .top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo{
+        width: 80%;
+    }
+    .discription{
+        width: 80%;
+    }
+    .tittle__2{
+        flex-wrap: wrap;
+    }
+    #news{
+        padding-left: 27%;
+    }
+}
+html, body {
+    margin: 0px;
+    padding: 0%;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 0.5%;
+}
+.main{
+    
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: green;
+    margin: 0%;
+}
+h1>span{
+    color: rgba(0, 128, 0, 0.494);
+    text-transform: none;
+    font-size: 2.3rem;
+    vertical-align: top;
+    margin-top: 10px ;
+    display: inline-block;
+}
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+    font-size: 1.0rem;
+
+
+}
+nav>ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    height: 50%;    
+}
+li{
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.85);
+}
+nav a{
+    text-decoration: none ;
+    color: rgba(255, 255, 255, 0.85);
+
+}
+#typography{
+    border: 0px;
+}
+div.photo{
+    background-image: url(../img/зеленый-цвет-выходит-текстура-фон-листвы-105222364.jpg) ;
+    background-repeat: no-repeat ;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;       
+}
+.photo>p{
+    font-size: 1.4rem;
+    width: 100%;
+    background-color: green;
+    margin: 0%;
+
+    color: rgba(198, 248, 198, 0.857) ;
+}
+.middle{
+    margin-top: 1%;
+    display: flex;
+}
+.discription{
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: rgb(119, 119, 119);
+}
+.discription h2~p  {
+    width: 80%;
+    text-align: start;
+    display: inline;
+}
+.discription p{
+    padding-left: 4%;
+    font-size: 1.0rem;
+}
+.discription h2{
+    font-size: 2.7rem;
+    margin: 0%;
+    text-align: start;
+    padding-left: 4%;
+}
+.tittle__2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+article{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+article img{
+    width: 100%;
+}
+#news{
+    font-size: 1.7rem;
+    margin: 15px 0px;
+    color: rgb(100, 100, 100);
+}
+.note{
+    background-color: grey;
+    height: 50%;
+    overflow: hidden;
+
+}
+h3, .date, .note{
+    margin: 0px;
+    margin-bottom: 0.5rem;
+}
+h3{
+    color: rgb(102, 102, 102);
+    font-size: 1.3rem;
+
+}
+
+.date{
+    font-size: 0.8rem;
+    color: rgb(177, 177, 177);
+}
+.note{
+    color: rgb(174, 174, 174);
+    font-size: 0.9rem;
+}
+article a{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+article span{
+    visibility: collapse;
+    color: black;
+}
+article span:hover{
+    visibility: visible;
+}
